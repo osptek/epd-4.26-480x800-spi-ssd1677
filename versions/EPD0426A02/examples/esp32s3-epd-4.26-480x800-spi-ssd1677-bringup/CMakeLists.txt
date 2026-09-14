@@ -3,4 +3,4 @@
 cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(esp32s3-4.26-epd-480x800-spi-ssd1677-bringup)
+project(esp32s3-epd-4.26-480x800-spi-ssd1677-bringup)

@@ -31,7 +31,7 @@
 
 OSPTEK **4.26 寸 480×800 电子纸（EPD）** 是一款 **SPI** 接口黑白墨水屏模组，显示驱动为 **SSD1677**。适合低功耗标签、仪表与静态信息显示；示例演示黑白 / 4 灰阶图像与局部刷新。
 
-规格标识（仓库名）：`4.26-epd-480x800-spi-ssd1677`
+规格标识（仓库名）：`epd-4.26-480x800-spi-ssd1677`
 
 当前模组版本：**EPD0426A02**。电气与外形细节以 [`docs/EPD_0426_A02_f14fa2c9ce.pdf`](./docs/EPD_0426_A02_f14fa2c9ce.pdf) 为准。
 
@@ -51,12 +51,12 @@ OSPTEK **4.26 寸 480×800 电子纸（EPD）** 是一款 **SPI** 接口黑白�
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-S3 · SSD1677 SPI bring-up（黑白 / 4 灰阶 / 局部刷新） | [`examples/esp32s3-4.26-epd-480x800-spi-ssd1677-bringup/`](./examples/esp32s3-4.26-epd-480x800-spi-ssd1677-bringup/) |
+| ESP32-S3 · SSD1677 SPI bring-up（黑白 / 4 灰阶 / 局部刷新） | [`examples/esp32s3-epd-4.26-480x800-spi-ssd1677-bringup/`](./examples/esp32s3-epd-4.26-480x800-spi-ssd1677-bringup/) |
 
 ## 仓库结构
 
 ```text
-4.26-epd-480x800-spi-ssd1677/                                # 仓库根（导航见 ../../README.md）
+epd-4.26-480x800-spi-ssd1677/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── EPD0426A02/                                # 本料号完整资料
         ├── README.md
@@ -79,7 +79,7 @@ OSPTEK **4.26 寸 480×800 电子纸（EPD）** 是一款 **SPI** 接口黑白�
 
 ### 示例工程
 
-- [ESP32-S3 SSD1677 SPI bring-up](./examples/esp32s3-4.26-epd-480x800-spi-ssd1677-bringup/)
+- [ESP32-S3 SSD1677 SPI bring-up](./examples/esp32s3-epd-4.26-480x800-spi-ssd1677-bringup/)
 
 ## 购买链接
 

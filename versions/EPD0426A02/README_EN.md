@@ -31,7 +31,7 @@
 
 OSPTEK **4.26″ 480×800 e-paper (EPD)** is a **SPI** monochrome electronic paper module driven by **SSD1677**. Suited to low-power labels, instruments, and static information displays. The sample covers black/white and 4-gray images plus partial refresh.
 
-Spec ID (repository name): `4.26-epd-480x800-spi-ssd1677`
+Spec ID (repository name): `epd-4.26-480x800-spi-ssd1677`
 
 Current module version: **EPD0426A02**. Electrical and mechanical details follow [`docs/EPD_0426_A02_f14fa2c9ce.pdf`](./docs/EPD_0426_A02_f14fa2c9ce.pdf).
 
@@ -51,12 +51,12 @@ Current module version: **EPD0426A02**. Electrical and mechanical details follow
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-S3 · SSD1677 SPI bring-up (BW / 4-gray / partial refresh) | [`examples/esp32s3-4.26-epd-480x800-spi-ssd1677-bringup/`](./examples/esp32s3-4.26-epd-480x800-spi-ssd1677-bringup/) |
+| ESP32-S3 · SSD1677 SPI bring-up (BW / 4-gray / partial refresh) | [`examples/esp32s3-epd-4.26-480x800-spi-ssd1677-bringup/`](./examples/esp32s3-epd-4.26-480x800-spi-ssd1677-bringup/) |
 
 ## Repository layout
 
 ```text
-4.26-epd-480x800-spi-ssd1677/                                # repo root (nav: ../../README_EN.md)
+epd-4.26-480x800-spi-ssd1677/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── EPD0426A02/                                # full materials for this part number
         ├── README.md
@@ -79,7 +79,7 @@ Current module version: **EPD0426A02**. Electrical and mechanical details follow
 
 ### Samples
 
-- [ESP32-S3 SSD1677 SPI bring-up](./examples/esp32s3-4.26-epd-480x800-spi-ssd1677-bringup/)
+- [ESP32-S3 SSD1677 SPI bring-up](./examples/esp32s3-epd-4.26-480x800-spi-ssd1677-bringup/)
 
 ## Buy
 

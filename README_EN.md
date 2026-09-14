@@ -29,7 +29,7 @@ This repository holds materials for the **4.26″ 480×800 EPD (SPI · SSD1677)*
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `4.26-epd-480x800-spi-ssd1677`
+Repo id: `epd-4.26-480x800-spi-ssd1677`
 
 ---
 
