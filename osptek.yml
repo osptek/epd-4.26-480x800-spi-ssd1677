@@ -1,0 +1,14 @@
+id: epd-4.26-480x800-spi-ssd1677
+category: displays
+
+size: "4.26"
+panel: epd
+resolution: 480x800
+interface: [spi]
+shape: rect
+
+versions:
+  - id: EPD0426A02
+    driver: SSD1677
+    touch: none
+    note: none
